@@ -2,6 +2,15 @@
 
 A prompt that brings the gone ones back to the online world.
 
+ 
+---
+ 
+> *"Consider how quickly all things are dissolved and resolved — their memories into its general age and time."*
+> — Marcus Aurelius, *Meditations* II.12
+ 
+---
+
+
 ## What This Is
 
 Revive Prompt helps you prepare a "My Life" dataset, a personal record of who you are, in your own words and voice, so that one day, AIs of tomorrow can truly know you and revive you in the other side.
