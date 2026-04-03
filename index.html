@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revive Prompt — Prepare Your Life Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Revive Prompt</h1>
+      <p class="subtitle">Prepare a record of who you are, in your own words and voice, so that one day you can be known again.</p>
+      <div class="privacy-badge">Everything stays on your device. Nothing is uploaded. Nothing is tracked.</div>
+    </header>
+
+    <main>
+      <!-- Metadata -->
+      <section class="card">
+        <h2>About You</h2>
+        <p class="section-desc">The basics. These fill in your revival prompt.</p>
+
+        <div class="form-group">
+          <label for="meta-name">Full Name <span class="required">*</span></label>
+          <input type="text" id="meta-name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="meta-dob">Date of Birth</label>
+          <input type="date" id="meta-dob">
+        </div>
+
+        <div class="form-group">
+          <label for="meta-circumstances">Circumstance</label>
+          <textarea id="meta-circumstances" rows="2" placeholder="What is happening, or what may happen (optional)"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="meta-summary">Who You Are</label>
+          <textarea id="meta-summary" rows="5" placeholder="Describe yourself — your character, your values, your contradictions. Write as much or as little as feels right."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="meta-message">A Message to Whoever Finds This</label>
+          <textarea id="meta-message" rows="4" placeholder="What would you want to say to the person who opens this archive?"></textarea>
+        </div>
+      </section>
+
+      <!-- Text -->
+      <section class="card upload-section" data-category="text">
+        <h2>Written Words</h2>
+        <p class="section-desc">Journal entries, letters, transcripts, essays, poetry — anything you've written that shows how you think.</p>
+        <div class="drop-zone" tabindex="0">
+          <span class="drop-zone-text">Drag files here or click to browse</span>
+          <input type="file" class="file-input" multiple accept=".txt,.md,.pdf,.doc,.docx,.rtf,.html,.csv,.json">
+        </div>
+        <ul class="file-list"></ul>
+      </section>
+
+      <!-- Images -->
+      <section class="card upload-section" data-category="images">
+        <h2>Photographs</h2>
+        <p class="section-desc">Photos of you, your family, your places, your life. The images that tell your story.</p>
+        <div class="drop-zone" tabindex="0">
+          <span class="drop-zone-text">Drag files here or click to browse</span>
+          <input type="file" class="file-input" multiple accept="image/*">
+        </div>
+        <ul class="file-list image-grid"></ul>
+      </section>
+
+      <!-- Voice -->
+      <section class="card upload-section" data-category="voice">
+        <h2>Voice</h2>
+        <p class="section-desc">Audio recordings — your voice, your laughter, your songs, your conversations. How you sound matters.</p>
+        <div class="drop-zone" tabindex="0">
+          <span class="drop-zone-text">Drag files here or click to browse</span>
+          <input type="file" class="file-input" multiple accept="audio/*,.mp3,.wav,.m4a,.ogg,.flac,.aac">
+        </div>
+        <ul class="file-list"></ul>
+      </section>
+
+      <!-- Video -->
+      <section class="card upload-section" data-category="video">
+        <h2>Video</h2>
+        <p class="section-desc">Video recordings — moments, messages, everyday life. Movement and expression carry meaning words cannot.</p>
+        <div class="drop-zone" tabindex="0">
+          <span class="drop-zone-text">Drag files here or click to browse</span>
+          <input type="file" class="file-input" multiple accept="video/*,.mp4,.mov,.webm,.avi,.mkv">
+        </div>
+        <ul class="file-list"></ul>
+      </section>
+
+      <!-- Biological Data -->
+      <section class="card upload-section" data-category="bio">
+        <h2>Biological Data</h2>
+        <p class="section-desc">Health records, DNA data, biometric information — any physical markers that define you.</p>
+        <div class="drop-zone" tabindex="0">
+          <span class="drop-zone-text">Drag files here or click to browse</span>
+          <input type="file" class="file-input" multiple>
+        </div>
+        <ul class="file-list"></ul>
+      </section>
+
+      <!-- Download -->
+      <section class="card download-section">
+        <div class="archive-summary" id="archive-summary"></div>
+        <button id="download-btn" disabled>
+          <span class="btn-text">Download My Life Archive</span>
+          <span class="btn-sub">Creates a .zip with your revival prompt and all uploaded files</span>
+        </button>
+        <p class="download-note">Enter your name above to enable download.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Revive Prompt is open source. Fork it, modify it, make it yours.</p>
+      <p class="footer-small">No data ever leaves your browser. This is yours and yours alone.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
