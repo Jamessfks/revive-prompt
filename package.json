@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "A prompt that brings the gone ones back to the online world.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamessfks/revive-prompt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamessfks/revive-prompt/issues"
+  },
+  "homepage": "https://github.com/Jamessfks/revive-prompt#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
