@@ -1,4 +1,4 @@
-# The Revival Prompt
+# The Revive Prompt
 
 ## Preamble
 

@@ -3,7 +3,7 @@
 // Everything runs client-side. Nothing leaves the browser.
 // ============================================================
 
-const TEMPLATE = `# The Revival Prompt
+const TEMPLATE = `# The Revive Prompt
 
 ## Preamble
 
