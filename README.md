@@ -4,13 +4,13 @@ A prompt that brings the gone ones back to the online world.
 
 ## What This Is
 
-Revive Prompt helps you prepare a "My Life" archive, a personal record of who you are, in your own words and voice, so that one day, AIs of tomorrow can truly know you and revive you.
+Revive Prompt helps you prepare a "My Life" dataset, a personal record of who you are, in your own words and voice, so that one day, AIs of tomorrow can truly know you and revive you in the other side.
 
 You fill in who you are, upload what matters to you, and download a zip file containing a revival prompt and your dataset. That zip is everything someone needs to bring you back.
 
 ## How to Use
 
-1. Open `index.html` in your browser
+1. Open reviveprompt.com or `index.html` in your browser
 2. Fill in your information
 3. Upload files across five dimensions:
    - **Written Words** — journals, letters, essays, transcripts
